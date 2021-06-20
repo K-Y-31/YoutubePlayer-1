@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FF4D166DC07DD07ED5E1739 /* Pods_YoutubePlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F14470C9B16A6D2C26D741 /* Pods_YoutubePlayerTests.framework */; };
+		364AD1D326692563007815EA /* VideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364AD1D226692563007815EA /* VideoCardView.swift */; };
 		36544FF12663A6DA00263F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544FF02663A6DA00263F3F /* AppDelegate.swift */; };
 		36544FF32663A6DA00263F3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544FF22663A6DA00263F3F /* SceneDelegate.swift */; };
 		36544FF52663A6DA00263F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544FF42663A6DA00263F3F /* ContentView.swift */; };
@@ -16,6 +18,43 @@
 		365450002663A6FB00263F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36544FFE2663A6FB00263F3F /* LaunchScreen.storyboard */; };
 		3654500B2663A6FB00263F3F /* YoutubePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3654500A2663A6FB00263F3F /* YoutubePlayerTests.swift */; };
 		365450162663A6FC00263F3F /* YoutubePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365450152663A6FC00263F3F /* YoutubePlayerUITests.swift */; };
+		365450272663A8E700263F3F /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365450262663A8E700263F3F /* MusicPlayerView.swift */; };
+		3654502C2663AE9100263F3F /* Sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3654502B2663AE9000263F3F /* Sample.mp3 */; };
+		365450342663C32900263F3F /* Sample2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 365450332663C32900263F3F /* Sample2.mp3 */; };
+		3654509626652B2B00263F3F /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3654509526652B2B00263F3F /* RequestController.swift */; };
+		365450A226652ECE00263F3F /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365450A126652ECE00263F3F /* VideoView.swift */; };
+		366EBCAD2667C945000A6E2C /* URLimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EBCAC2667C945000A6E2C /* URLimageViewController.swift */; };
+		366EBCB52667CC30000A6E2C /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EBCB42667CC30000A6E2C /* URLImageView.swift */; };
+		36A16CDC2672D9210084FF7C /* GenericVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CDB2672D9200084FF7C /* GenericVideoData.swift */; };
+		36A16CDE2672F4C00084FF7C /* ArtistVideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CDD2672F4C00084FF7C /* ArtistVideoCardView.swift */; };
+		36A16CE02674771C0084FF7C /* TimerScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CDF2674771C0084FF7C /* TimerScheduler.swift */; };
+		36A16CE2267484A60084FF7C /* J_RockVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CE1267484A60084FF7C /* J_RockVideoData.swift */; };
+		36A16CE4267485FC0084FF7C /* JlockCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CE3267485FC0084FF7C /* JlockCardView.swift */; };
+		36A16CE62675902E0084FF7C /* HotMusicVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CE52675902E0084FF7C /* HotMusicVideoData.swift */; };
+		36A16CE8267606160084FF7C /* HotVideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CE7267606160084FF7C /* HotVideoCardView.swift */; };
+		36A16CEB2677B5C10084FF7C /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CEA2677B5C10084FF7C /* PostRowView.swift */; };
+		36A16CED2678D82B0084FF7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36A16CEC2678D82B0084FF7C /* GoogleService-Info.plist */; };
+		36A16CF02678DB440084FF7C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CEF2678DB440084FF7C /* SignInView.swift */; };
+		36A16CF22678E6170084FF7C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CF12678E6170084FF7C /* SignInViewController.swift */; };
+		36A16CF42678F2CF0084FF7C /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CF32678F2CF0084FF7C /* TextViewController.swift */; };
+		36A16CF72679A05B0084FF7C /* MainControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CF62679A05B0084FF7C /* MainControllerView.swift */; };
+		36A16CFA2679B4380084FF7C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CF92679B4380084FF7C /* UserModel.swift */; };
+		36A16CFD2679BAEE0084FF7C /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CFC2679BAEE0084FF7C /* UserListView.swift */; };
+		36A16D00267B44E20084FF7C /* FetchLoginUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16CFF267B44E10084FF7C /* FetchLoginUserInfo.swift */; };
+		36A16D02267B495C0084FF7C /* FetchUserModelinFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D01267B495C0084FF7C /* FetchUserModelinFireStore.swift */; };
+		36A16D06267B50C20084FF7C /* SearchUserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D05267B50C20084FF7C /* SearchUserListView.swift */; };
+		36A16D08267B54310084FF7C /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D07267B54310084FF7C /* UserInfoView.swift */; };
+		36A16D0A267B5E7F0084FF7C /* FetchChatRoomsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D09267B5E7F0084FF7C /* FetchChatRoomsInfo.swift */; };
+		36A16D0C267B60EE0084FF7C /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D0B267B60EE0084FF7C /* ChatRoom.swift */; };
+		36A16D0F267C36F30084FF7C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D0E267C36F30084FF7C /* ProfileView.swift */; };
+		36A16D11267C42DC0084FF7C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D10267C42DC0084FF7C /* SettingView.swift */; };
+		36A16D17267CFD640084FF7C /* ViewWillApperHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A16D16267CFD640084FF7C /* ViewWillApperHandler.swift */; };
+		36ABC2D2266C663B009B8D24 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ABC2D1266C663B009B8D24 /* HomeView.swift */; };
+		36AD8F2E266EE99C0041AD91 /* ArtistVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AD8F2D266EE99C0041AD91 /* ArtistVideoData.swift */; };
+		36BD635D266A7E8300B32575 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD635C266A7E8300B32575 /* VideoPlayer.swift */; };
+		36BD6368266A813C00B32575 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6367266A813C00B32575 /* AudioPlayerView.swift */; };
+		79106C65B0145FCDAA8B2BB1 /* Pods_YoutubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139BD9A226166B5FE24B8BDF /* Pods_YoutubePlayer.framework */; };
+		89D6118323DB6318FC62B63A /* Pods_YoutubePlayer_YoutubePlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C69B29CD0E405F388D3194 /* Pods_YoutubePlayer_YoutubePlayerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +75,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		139BD9A226166B5FE24B8BDF /* Pods_YoutubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187D9D282987B01F93C9FA22 /* Pods-YoutubePlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-YoutubePlayerTests/Pods-YoutubePlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		364AD1D226692563007815EA /* VideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCardView.swift; sourceTree = "<group>"; };
 		36544FED2663A6DA00263F3F /* YoutubePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36544FF02663A6DA00263F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36544FF22663A6DA00263F3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +93,48 @@
 		365450112663A6FC00263F3F /* YoutubePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		365450152663A6FC00263F3F /* YoutubePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayerUITests.swift; sourceTree = "<group>"; };
 		365450172663A6FC00263F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365450262663A8E700263F3F /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		3654502B2663AE9000263F3F /* Sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sample.mp3; path = ../../../Downloads/Sample.mp3; sourceTree = "<group>"; };
+		365450332663C32900263F3F /* Sample2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sample2.mp3; path = ../../../Downloads/Sample2.mp3; sourceTree = "<group>"; };
+		3654509526652B2B00263F3F /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
+		365450A126652ECE00263F3F /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		366EBCAC2667C945000A6E2C /* URLimageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLimageViewController.swift; sourceTree = "<group>"; };
+		366EBCB42667CC30000A6E2C /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		36A16CDB2672D9200084FF7C /* GenericVideoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericVideoData.swift; path = ../../../YoutubeMusicPlayer/YoutubeMusicPlayer/Model/GenericVideoData.swift; sourceTree = "<group>"; };
+		36A16CDD2672F4C00084FF7C /* ArtistVideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistVideoCardView.swift; sourceTree = "<group>"; };
+		36A16CDF2674771C0084FF7C /* TimerScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScheduler.swift; sourceTree = "<group>"; };
+		36A16CE1267484A60084FF7C /* J_RockVideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = J_RockVideoData.swift; sourceTree = "<group>"; };
+		36A16CE3267485FC0084FF7C /* JlockCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JlockCardView.swift; sourceTree = "<group>"; };
+		36A16CE52675902E0084FF7C /* HotMusicVideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotMusicVideoData.swift; sourceTree = "<group>"; };
+		36A16CE7267606160084FF7C /* HotVideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotVideoCardView.swift; sourceTree = "<group>"; };
+		36A16CEA2677B5C10084FF7C /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		36A16CEC2678D82B0084FF7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36A16CEF2678DB440084FF7C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		36A16CF12678E6170084FF7C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		36A16CF32678F2CF0084FF7C /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		36A16CF62679A05B0084FF7C /* MainControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControllerView.swift; sourceTree = "<group>"; };
+		36A16CF92679B4380084FF7C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = YoutubePlayer/MaincontrollerView/UserModel.swift; sourceTree = SOURCE_ROOT; };
+		36A16CFC2679BAEE0084FF7C /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		36A16CFF267B44E10084FF7C /* FetchLoginUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FetchLoginUserInfo.swift; path = YoutubePlayer/UserList/FetchLoginUserInfo.swift; sourceTree = SOURCE_ROOT; };
+		36A16D01267B495C0084FF7C /* FetchUserModelinFireStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserModelinFireStore.swift; sourceTree = "<group>"; };
+		36A16D05267B50C20084FF7C /* SearchUserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserListView.swift; sourceTree = "<group>"; };
+		36A16D07267B54310084FF7C /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		36A16D09267B5E7F0084FF7C /* FetchChatRoomsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchChatRoomsInfo.swift; sourceTree = "<group>"; };
+		36A16D0B267B60EE0084FF7C /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		36A16D0E267C36F30084FF7C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = YoutubePlayer/User/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		36A16D10267C42DC0084FF7C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		36A16D16267CFD640084FF7C /* ViewWillApperHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWillApperHandler.swift; sourceTree = "<group>"; };
+		36ABC2D1266C663B009B8D24 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36AD8F2D266EE99C0041AD91 /* ArtistVideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistVideoData.swift; sourceTree = "<group>"; };
+		36BD635C266A7E8300B32575 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		36BD6367266A813C00B32575 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		6BCE1B347A9521045E541600 /* Pods-YoutubePlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayerTests.release.xcconfig"; path = "Target Support Files/Pods-YoutubePlayerTests/Pods-YoutubePlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		78C69B29CD0E405F388D3194 /* Pods_YoutubePlayer_YoutubePlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubePlayer_YoutubePlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7987229001911BD836DD29D6 /* Pods-YoutubePlayer-YoutubePlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer-YoutubePlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-YoutubePlayer-YoutubePlayerUITests/Pods-YoutubePlayer-YoutubePlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C055080BBAA796F7C471653 /* Pods-YoutubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer.release.xcconfig"; path = "Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer.release.xcconfig"; sourceTree = "<group>"; };
+		D5F14470C9B16A6D2C26D741 /* Pods_YoutubePlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubePlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3165CD7933B9240489A559 /* Pods-YoutubePlayer-YoutubePlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer-YoutubePlayerUITests.debug.xcconfig"; path = "Target Support Files/Pods-YoutubePlayer-YoutubePlayerUITests/Pods-YoutubePlayer-YoutubePlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F88453A3BAD68C6EBF559B49 /* Pods-YoutubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer.debug.xcconfig"; path = "Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79106C65B0145FCDAA8B2BB1 /* Pods_YoutubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF4D166DC07DD07ED5E1739 /* Pods_YoutubePlayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D6118323DB6318FC62B63A /* Pods_YoutubePlayer_YoutubePlayerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +172,8 @@
 				365450092663A6FB00263F3F /* YoutubePlayerTests */,
 				365450142663A6FC00263F3F /* YoutubePlayerUITests */,
 				36544FEE2663A6DA00263F3F /* Products */,
+				4AA93A117879303108930A94 /* Pods */,
+				A75F294CBFD2C1AA2130A4BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +190,32 @@
 		36544FEF2663A6DA00263F3F /* YoutubePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				36A16D12267C9E500084FF7C /* ViewController */,
+				36A16D0D267C36D70084FF7C /* ProfileView */,
+				36A16CFE267B44CA0084FF7C /* FetchUserInfo */,
+				36A16CFB2679BAB80084FF7C /* UserList */,
+				36A16CF82679B4180084FF7C /* User */,
+				36A16CF52679A0450084FF7C /* MaincontrollerView */,
+				36A16CEE2678DB220084FF7C /* SignInView */,
+				36A16CE92677B5800084FF7C /* PostView */,
+				36ABC2D0266C662C009B8D24 /* HomeView */,
+				36BD635B266A7E6700B32575 /* Player */,
+				366EBCAB2667C92C000A6E2C /* Helper */,
+				365450A026652EB600263F3F /* View */,
+				3654509A26652C2900263F3F /* Model */,
+				3654509126652B0600263F3F /* API */,
 				36544FF02663A6DA00263F3F /* AppDelegate.swift */,
+				3654502B2663AE9000263F3F /* Sample.mp3 */,
+				365450332663C32900263F3F /* Sample2.mp3 */,
 				36544FF22663A6DA00263F3F /* SceneDelegate.swift */,
 				36544FF42663A6DA00263F3F /* ContentView.swift */,
 				36544FF92663A6FB00263F3F /* Assets.xcassets */,
 				36544FFE2663A6FB00263F3F /* LaunchScreen.storyboard */,
+				36A16CEC2678D82B0084FF7C /* GoogleService-Info.plist */,
 				365450012663A6FB00263F3F /* Info.plist */,
 				36544FF62663A6DA00263F3F /* YoutubePlayer.xcdatamodeld */,
 				36544FFB2663A6FB00263F3F /* Preview Content */,
+				365450262663A8E700263F3F /* MusicPlayerView.swift */,
 			);
 			path = YoutubePlayer;
 			sourceTree = "<group>";
@@ -139,6 +246,159 @@
 			path = YoutubePlayerUITests;
 			sourceTree = "<group>";
 		};
+		3654509126652B0600263F3F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3654509526652B2B00263F3F /* RequestController.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3654509A26652C2900263F3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CDB2672D9200084FF7C /* GenericVideoData.swift */,
+				36A16CE1267484A60084FF7C /* J_RockVideoData.swift */,
+				36AD8F2D266EE99C0041AD91 /* ArtistVideoData.swift */,
+				36A16CE52675902E0084FF7C /* HotMusicVideoData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		365450A026652EB600263F3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				365450A126652ECE00263F3F /* VideoView.swift */,
+				364AD1D226692563007815EA /* VideoCardView.swift */,
+				36BD6367266A813C00B32575 /* AudioPlayerView.swift */,
+				36A16CDD2672F4C00084FF7C /* ArtistVideoCardView.swift */,
+				36A16CE3267485FC0084FF7C /* JlockCardView.swift */,
+				36A16CE7267606160084FF7C /* HotVideoCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		366EBCAB2667C92C000A6E2C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				366EBCAC2667C945000A6E2C /* URLimageViewController.swift */,
+				366EBCB42667CC30000A6E2C /* URLImageView.swift */,
+				36A16CDF2674771C0084FF7C /* TimerScheduler.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		36A16CE92677B5800084FF7C /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CEA2677B5C10084FF7C /* PostRowView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		36A16CEE2678DB220084FF7C /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CEF2678DB440084FF7C /* SignInView.swift */,
+				36A16CF12678E6170084FF7C /* SignInViewController.swift */,
+				36A16CF32678F2CF0084FF7C /* TextViewController.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		36A16CF52679A0450084FF7C /* MaincontrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CF62679A05B0084FF7C /* MainControllerView.swift */,
+			);
+			path = MaincontrollerView;
+			sourceTree = "<group>";
+		};
+		36A16CF82679B4180084FF7C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CF92679B4380084FF7C /* UserModel.swift */,
+				36A16D0B267B60EE0084FF7C /* ChatRoom.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		36A16CFB2679BAB80084FF7C /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CFC2679BAEE0084FF7C /* UserListView.swift */,
+				36A16D05267B50C20084FF7C /* SearchUserListView.swift */,
+				36A16D07267B54310084FF7C /* UserInfoView.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		36A16CFE267B44CA0084FF7C /* FetchUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				36A16CFF267B44E10084FF7C /* FetchLoginUserInfo.swift */,
+				36A16D01267B495C0084FF7C /* FetchUserModelinFireStore.swift */,
+				36A16D09267B5E7F0084FF7C /* FetchChatRoomsInfo.swift */,
+			);
+			path = FetchUserInfo;
+			sourceTree = "<group>";
+		};
+		36A16D0D267C36D70084FF7C /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				36A16D0E267C36F30084FF7C /* ProfileView.swift */,
+				36A16D10267C42DC0084FF7C /* SettingView.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		36A16D12267C9E500084FF7C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				36A16D16267CFD640084FF7C /* ViewWillApperHandler.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		36ABC2D0266C662C009B8D24 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				36ABC2D1266C663B009B8D24 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		36BD635B266A7E6700B32575 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				36BD635C266A7E8300B32575 /* VideoPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		4AA93A117879303108930A94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F88453A3BAD68C6EBF559B49 /* Pods-YoutubePlayer.debug.xcconfig */,
+				8C055080BBAA796F7C471653 /* Pods-YoutubePlayer.release.xcconfig */,
+				DE3165CD7933B9240489A559 /* Pods-YoutubePlayer-YoutubePlayerUITests.debug.xcconfig */,
+				7987229001911BD836DD29D6 /* Pods-YoutubePlayer-YoutubePlayerUITests.release.xcconfig */,
+				187D9D282987B01F93C9FA22 /* Pods-YoutubePlayerTests.debug.xcconfig */,
+				6BCE1B347A9521045E541600 /* Pods-YoutubePlayerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A75F294CBFD2C1AA2130A4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139BD9A226166B5FE24B8BDF /* Pods_YoutubePlayer.framework */,
+				78C69B29CD0E405F388D3194 /* Pods_YoutubePlayer_YoutubePlayerUITests.framework */,
+				D5F14470C9B16A6D2C26D741 /* Pods_YoutubePlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +406,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3654501A2663A6FC00263F3F /* Build configuration list for PBXNativeTarget "YoutubePlayer" */;
 			buildPhases = (
+				A7C45EC15E7615722C1F64D4 /* [CP] Check Pods Manifest.lock */,
 				36544FE92663A6DA00263F3F /* Sources */,
 				36544FEA2663A6DA00263F3F /* Frameworks */,
 				36544FEB2663A6DA00263F3F /* Resources */,
+				16B68EB46B16CBCAD73F8615 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +425,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3654501D2663A6FC00263F3F /* Build configuration list for PBXNativeTarget "YoutubePlayerTests" */;
 			buildPhases = (
+				EF21D68DF7D31F7850114A85 /* [CP] Check Pods Manifest.lock */,
 				365450022663A6FB00263F3F /* Sources */,
 				365450032663A6FB00263F3F /* Frameworks */,
 				365450042663A6FB00263F3F /* Resources */,
@@ -181,9 +444,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 365450202663A6FC00263F3F /* Build configuration list for PBXNativeTarget "YoutubePlayerUITests" */;
 			buildPhases = (
+				26327C89DE5BE3F69F083BB5 /* [CP] Check Pods Manifest.lock */,
 				3654500D2663A6FC00263F3F /* Sources */,
 				3654500E2663A6FC00263F3F /* Frameworks */,
 				3654500F2663A6FC00263F3F /* Resources */,
+				BF6AB46919C0B6D555666A79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,9 +507,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A16CED2678D82B0084FF7C /* GoogleService-Info.plist in Resources */,
 				365450002663A6FB00263F3F /* LaunchScreen.storyboard in Resources */,
 				36544FFD2663A6FB00263F3F /* Preview Assets.xcassets in Resources */,
 				36544FFA2663A6FB00263F3F /* Assets.xcassets in Resources */,
+				3654502C2663AE9100263F3F /* Sample.mp3 in Resources */,
+				365450342663C32900263F3F /* Sample2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +532,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16B68EB46B16CBCAD73F8615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26327C89DE5BE3F69F083BB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubePlayer-YoutubePlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C45EC15E7615722C1F64D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubePlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6AB46919C0B6D555666A79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer-YoutubePlayerUITests/Pods-YoutubePlayer-YoutubePlayerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer-YoutubePlayerUITests/Pods-YoutubePlayer-YoutubePlayerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayer-YoutubePlayerUITests/Pods-YoutubePlayer-YoutubePlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF21D68DF7D31F7850114A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubePlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36544FE92663A6DA00263F3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365450272663A8E700263F3F /* MusicPlayerView.swift in Sources */,
+				36A16CE2267484A60084FF7C /* J_RockVideoData.swift in Sources */,
 				36544FF82663A6DA00263F3F /* YoutubePlayer.xcdatamodeld in Sources */,
 				36544FF12663A6DA00263F3F /* AppDelegate.swift in Sources */,
 				36544FF32663A6DA00263F3F /* SceneDelegate.swift in Sources */,
+				365450A226652ECE00263F3F /* VideoView.swift in Sources */,
+				366EBCAD2667C945000A6E2C /* URLimageViewController.swift in Sources */,
+				36A16CF72679A05B0084FF7C /* MainControllerView.swift in Sources */,
+				36A16D00267B44E20084FF7C /* FetchLoginUserInfo.swift in Sources */,
+				36A16CEB2677B5C10084FF7C /* PostRowView.swift in Sources */,
+				36A16D0A267B5E7F0084FF7C /* FetchChatRoomsInfo.swift in Sources */,
+				3654509626652B2B00263F3F /* RequestController.swift in Sources */,
+				36A16D0F267C36F30084FF7C /* ProfileView.swift in Sources */,
+				36A16D0C267B60EE0084FF7C /* ChatRoom.swift in Sources */,
+				36A16D06267B50C20084FF7C /* SearchUserListView.swift in Sources */,
+				36A16CDE2672F4C00084FF7C /* ArtistVideoCardView.swift in Sources */,
 				36544FF52663A6DA00263F3F /* ContentView.swift in Sources */,
+				36A16CDC2672D9210084FF7C /* GenericVideoData.swift in Sources */,
+				36BD635D266A7E8300B32575 /* VideoPlayer.swift in Sources */,
+				366EBCB52667CC30000A6E2C /* URLImageView.swift in Sources */,
+				36A16D02267B495C0084FF7C /* FetchUserModelinFireStore.swift in Sources */,
+				36A16D11267C42DC0084FF7C /* SettingView.swift in Sources */,
+				36BD6368266A813C00B32575 /* AudioPlayerView.swift in Sources */,
+				36A16D08267B54310084FF7C /* UserInfoView.swift in Sources */,
+				36A16CFA2679B4380084FF7C /* UserModel.swift in Sources */,
+				36A16CE4267485FC0084FF7C /* JlockCardView.swift in Sources */,
+				36A16D17267CFD640084FF7C /* ViewWillApperHandler.swift in Sources */,
+				36A16CE62675902E0084FF7C /* HotMusicVideoData.swift in Sources */,
+				36A16CFD2679BAEE0084FF7C /* UserListView.swift in Sources */,
+				36ABC2D2266C663B009B8D24 /* HomeView.swift in Sources */,
+				36A16CE8267606160084FF7C /* HotVideoCardView.swift in Sources */,
+				364AD1D326692563007815EA /* VideoCardView.swift in Sources */,
+				36A16CF42678F2CF0084FF7C /* TextViewController.swift in Sources */,
+				36A16CF22678E6170084FF7C /* SignInViewController.swift in Sources */,
+				36AD8F2E266EE99C0041AD91 /* ArtistVideoData.swift in Sources */,
+				36A16CE02674771C0084FF7C /* TimerScheduler.swift in Sources */,
+				36A16CF02678DB440084FF7C /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +841,7 @@
 		};
 		3654501B2663A6FC00263F3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88453A3BAD68C6EBF559B49 /* Pods-YoutubePlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +863,7 @@
 		};
 		3654501C2663A6FC00263F3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C055080BBAA796F7C471653 /* Pods-YoutubePlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +885,7 @@
 		};
 		3654501E2663A6FC00263F3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187D9D282987B01F93C9FA22 /* Pods-YoutubePlayerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +908,7 @@
 		};
 		3654501F2663A6FC00263F3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BCE1B347A9521045E541600 /* Pods-YoutubePlayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +931,7 @@
 		};
 		365450212663A6FC00263F3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3165CD7933B9240489A559 /* Pods-YoutubePlayer-YoutubePlayerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +952,7 @@
 		};
 		365450222663A6FC00263F3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7987229001911BD836DD29D6 /* Pods-YoutubePlayer-YoutubePlayerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
